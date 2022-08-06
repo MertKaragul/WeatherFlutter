@@ -5,8 +5,6 @@ import 'package:intl/intl.dart';
 
 String API_KEY = ""
     "";
-
-
 var dateTime = new DateTime.now();
 var formatDate = DateFormat("dd,yyyy").format(dateTime);
 

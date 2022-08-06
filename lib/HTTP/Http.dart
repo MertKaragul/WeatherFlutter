@@ -13,8 +13,5 @@ Future<void> getWeathers(double latitude , double longitude) async{
     return Future.value(WeatherModel.fromJson(jsonResponse));
   }else{
     return Future.error(response.statusCode);
-
-
-
   }
 }
