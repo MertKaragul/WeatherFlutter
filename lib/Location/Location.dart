@@ -10,6 +10,7 @@ class Location{
   Future<void> checkPermission() async{
 
 
+
     bool serviceEnabled;
     LocationPermission permission;
 

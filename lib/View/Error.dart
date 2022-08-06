@@ -21,6 +21,7 @@ class _AppErrorState extends State<AppError> {
           child: Column(
 
 
+
             children: [
               Icon(Icons.error , color: Colors.red, size: (width + height) * 0.05),
               Text(widget.errMessage),
