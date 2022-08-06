@@ -19,9 +19,6 @@ class _AppErrorState extends State<AppError> {
         child: Padding(
           padding: EdgeInsets.all((width) * 0.05),
           child: Column(
-
-
-
             children: [
               Icon(Icons.error , color: Colors.red, size: (width + height) * 0.05),
               Text(widget.errMessage),
