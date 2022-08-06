@@ -11,6 +11,7 @@ class WeatherModel{
   int? timezone;
   int? id;
 
+
   String? name;
   int? cod;
   WeatherModel(this.coord , this.weather , this.base , this.main , this.visibility ,this.wind , this.clouds , this.dt , this.sys , this.timezone , this.id , this.name , this.cod);

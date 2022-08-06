@@ -7,8 +7,6 @@ import 'View/Error.dart';
 import 'View/Weather.dart';
 
 void main() {
-
-
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     debugShowMaterialGrid: false,

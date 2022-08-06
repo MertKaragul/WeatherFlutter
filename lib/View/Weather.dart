@@ -78,6 +78,7 @@ class _WeatherState extends State<Weather> {
                                           width: (width * 1.5),
                                         ),
 
+
                                         Row(
                                           mainAxisAlignment:
                                               MainAxisAlignment.center,
